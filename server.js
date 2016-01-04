@@ -36,7 +36,7 @@ function findRandom(collection, callback) {
 
 function initialHand(partialHand, callback) {
   var hand = partialHand;
-  if (Object.keys(hand).length == 5) { // TODO SET TO 10
+  if (Object.keys(hand).length == 10) {
     // Return
     callback(null, hand);
     return;
