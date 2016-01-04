@@ -113,13 +113,15 @@ function createPairing(black, blue) {
 
 // ROUTES
 
+app.get('/', function(req, res) {
+  res.redirect('/play');
+});
+
 app.get('/play', function(req, res) {
-    res.setHeader('Content-Type', 'text/html');
     res.render('play');
 });
 
 app.get('/billboard', function(req, res) {
-    res.setHeader('Content-Type', 'text/html');
     res.render('billboard');
 });
 
