@@ -206,13 +206,13 @@ tr.pairing {
 }
 
 .course {
-  min-width: 45px;
+  min-width: 60px;
   text-align: center;
   color: #222;
 }
 .string {
-  min-width: 500px;
-  max-width: 500px;
+  min-width: 485px;
+  max-width: 485px;
   color: #444;
 }
 
