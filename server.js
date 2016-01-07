@@ -181,39 +181,12 @@ app.post('/upvote', function(req, res) {
   });
 });
 
-// FOR ADMIN USE
-
-app.get('/blackcards', function(req, res) {
-    var blacks = db.get('blackcards');
-    blacks.find({}, {}, function(e, blackcards) {
-        res.setHeader('Content-Type', 'text/html');
-        res.render('list', { title : 'Black Cards', list : blackcards });
-    });
-});
-
-app.get('/whitecards', function(req, res) {
-    var blacks = db.get('whitecards');
-    blacks.find({}, {}, function(e, whitecards) {
-        res.setHeader('Content-Type', 'text/html');
-        res.render('list', { title : 'White Cards', list : whitecards });
-    });
-});
-
-app.get('/pairings', function(req, res) {
-    var blacks = db.get('pairings');
-    blacks.find({}, {}, function(e, pairings) {
-        res.setHeader('Content-Type', 'text/html');
-        res.render('list', { title : 'Pairings', list : pairings });
-    });
-});
-
 // 404
 
 app.use(function(req, res, next) {
 	res.setHeader('Content-Type', 'text/html');
 	res.send(404, 'You are lost.');
 });
-
 
 // RUN
 
