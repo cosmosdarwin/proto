@@ -5,6 +5,7 @@
     "express": "~4.13",
     "body-parser": "~1.14",
     "jade": "~1.11",
+    "mongoskin": "1.3.20",
     "monk":"~1.0"
   },
   "author": "Cosmos Darwin",
