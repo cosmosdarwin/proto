@@ -2,11 +2,11 @@
   "name": "AgainstMIT",
   "version": "0.1.0",
   "dependencies": {
-    "express": "~4.13",
-    "body-parser": "~1.14",
+    "express": "~4.14",
+    "body-parser": "~1.15",
     "jade": "~1.11",
-    "mongodb": "~2.0.0",
-    "monk":"~1.0"
+    "mongodb": "~2.2",
+    "monk":"~3.0"
   },
   "author": "Cosmos Darwin",
   "license": "MIT"
