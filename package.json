@@ -5,11 +5,7 @@
     "node" : "~6.9"
   },
   "dependencies": {
-    "express": "~4.14",
-    "body-parser": "~1.15",
-    "jade": "~1.11",
-    "mongodb": "~2.2",
-    "monk":"~3.0"
+    "express": "~4.14"
   },
   "author": "Cosmos Darwin",
   "license": "MIT"
