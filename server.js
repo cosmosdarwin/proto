@@ -10,7 +10,7 @@ app.set('view engine', 'jade');
 var mongo = require('mongodb');
 var ObjectID = require('mongodb').ObjectID;
 var monk = require('monk');
-var db = monk('localhost:27017/proto');
+var db = monk('kgb124.canadacentral.cloudapp.azure.com:27017/proto');
 
 // MIDDLEWARE
 
