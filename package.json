@@ -1,6 +1,9 @@
 {
   "name": "AgainstMIT",
   "version": "0.1.0",
+  "engines" : {
+    "node" : "~6.9"
+  },
   "dependencies": {
     "express": "~4.14",
     "body-parser": "~1.15",
